@@ -1,0 +1,49 @@
+# ── Build directories ─────────────────────────────────────────
+build/
+out/
+cmake-build-*/
+
+# ── Qt Creator ────────────────────────────────────────────────
+*.user
+*.user.*
+.qtcreator/CMakeLists.txt.user*
+.qtcreator/qtc-cmake-presets-*
+
+# ── vcpkg installed packages (generated, not source) ──────────
+vcpkg_installed/
+
+# ── CMake ─────────────────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+_deps/
+
+# ── MSVC / Windows ────────────────────────────────────────────
+*.obj
+*.lib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.suo
+.vs/
+
+# ── Generated Qt / MOC / RCC files ────────────────────────────
+*_autogen/
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+*.qmlc
+.qmlls.ini
+
+# ── Claude Code ───────────────────────────────────────────────
+.claude/
+
+# ── Misc ──────────────────────────────────────────────────────
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
